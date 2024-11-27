@@ -47,7 +47,7 @@ function App() {
         </button>
       </div>
 
-      {loading && <p className="loading-message">Loading data…</p>}
+      {loading && <p className="loading-message">Loading data...</p>}
 
       {weatherData && (
         <>
